@@ -22,4 +22,4 @@ npx tailwindcss init -p
 add to tailwind.config.js as in tailwind doc
 
 6.
-copy and paste index.css and App.js from tailwind doc
+copy and paste index.css and App.js from tailwind doc 
