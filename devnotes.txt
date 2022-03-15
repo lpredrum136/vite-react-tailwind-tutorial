@@ -1,0 +1,25 @@
+1.
+yarn create vite:
+- vite-react-tailwind
+- react
+- react-ts
+
+2.
+cd vite-react-tailwind
+yarn
+yarn dev
+
+3.
+initialise git (use VS Code)
+
+4.
+extensions
+
+5.
+yarn add react-icons
+yarn add -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+add to tailwind.config.js as in tailwind doc
+
+6.
+copy and paste index.css and App.js from tailwind doc
