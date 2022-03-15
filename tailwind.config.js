@@ -1,7 +1,11 @@
 module.exports = {
 	content: ['./src/**/*.{js,jsx,ts,tsx}'],
 	theme: {
-		extend: {}
+		extend: {
+			fontFamily: {
+				barlow: ['"Barlow Condensed"', 'sans-serif']
+			}
+		}
 	},
 	plugins: []
 }
