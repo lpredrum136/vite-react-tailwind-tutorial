@@ -1,20 +1,10 @@
 import './App.css'
+import Nav from './components/Nav'
 
 function App() {
 	return (
 		<div className='grid grid-cols-5'>
-			<nav className='col-span-1 bg-cyan-200 flex justify-end'>
-				<div className='mr-4'>
-					<h1 className='font-bold uppercase text-3xl text-primary p-4 border-b border-primary'>
-						Phimmoi.net
-					</h1>
-					<ul>
-						<li>Home</li>
-						<li>Movies</li>
-						<li>About</li>
-					</ul>
-				</div>
-			</nav>
+			<Nav />
 
 			<main>
 				<h1>

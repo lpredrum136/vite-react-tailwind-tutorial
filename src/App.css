@@ -4,4 +4,12 @@
 	body {
 		@apply font-barlow;
 	}
+
+	h1 {
+		@apply text-5xl font-bold;
+	}
+
+	h3 {
+		@apply text-3xl;
+	}
 }
