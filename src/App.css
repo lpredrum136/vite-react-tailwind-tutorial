@@ -2,7 +2,7 @@
 
 @layer base {
 	body {
-		@apply font-barlow;
+		@apply font-barlow text-primary;
 	}
 
 	h1 {
@@ -16,8 +16,20 @@
 	h3 {
 		@apply text-3xl;
 	}
+
+	h4 {
+		@apply text-2xl;
+	}
 }
 
 .btn {
 	@apply border-2 px-4 py-2 border-primary rounded uppercase text-xl font-semibold cursor-pointer;
+}
+
+.card {
+	@apply bg-primary rounded-md shadow-md shadow-primary relative overflow-hidden;
+}
+
+.badge {
+	@apply bg-cyan-50 rounded-md absolute top-[300px] right-0 flex justify-between items-center p-2 mr-4 w-1/4;
 }
