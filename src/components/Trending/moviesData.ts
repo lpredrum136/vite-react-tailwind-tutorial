@@ -20,7 +20,7 @@ export const moviesData: Movie[] = [
 		runtime: '120m'
 	},
 	{ src: Dune, title: 'Dune', main: 'Timothée Chalamet', runtime: '120m' },
-	{ src: Sing2, title: 'Sing2', main: 'Matthew McConaughey', runtime: '120m' },
+	{ src: Sing2, title: 'Sing 2', main: 'Matthew McConaughey', runtime: '120m' },
 	{
 		src: SpiderMan,
 		title: 'Spider-Man: No Way Home',

@@ -23,11 +23,11 @@
 }
 
 .btn {
-	@apply border-2 px-4 py-2 border-primary rounded uppercase text-xl font-semibold cursor-pointer;
+	@apply border-2 px-4 py-2 border-primary rounded uppercase text-xl font-semibold cursor-pointer hover:bg-primary hover:text-white;
 }
 
 .card {
-	@apply bg-primary rounded-md shadow-md shadow-primary relative overflow-hidden;
+	@apply bg-primary rounded-md shadow-md shadow-primary relative overflow-hidden hover:shadow-lg hover:shadow-primary;
 }
 
 .badge {
