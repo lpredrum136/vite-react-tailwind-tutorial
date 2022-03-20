@@ -31,5 +31,5 @@
 }
 
 .badge {
-	@apply bg-cyan-50 rounded-md absolute top-[300px] right-0 flex justify-between items-center p-2 mr-4 w-1/4;
+	@apply flex justify-between items-center bg-cyan-50 rounded-md absolute top-2 left-2 p-2 min-w-[25%];
 }
