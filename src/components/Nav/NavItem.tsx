@@ -1,5 +1,3 @@
-import { IconType } from 'react-icons'
-
 export interface Item {
 	label: string
 	icon: JSX.Element
