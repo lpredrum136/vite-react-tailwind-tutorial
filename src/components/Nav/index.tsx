@@ -27,9 +27,7 @@ const Index = () => {
 				<h4 className='uppercase font-bold text-primary py-4 border-b border-primary text-right'>
 					Phimmoi.net
 				</h4>
-				{/* <ul className='hidden mt-2 md:block'>
-					<NavMenu />
-				</ul> */}
+
 				<BiMenu
 					className='cursor-pointer md:hidden'
 					size='1.875rem'
